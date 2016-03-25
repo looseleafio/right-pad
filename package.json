@@ -1,14 +1,16 @@
 {
   "name": "right-padding",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Right padding for strings",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "keywords": [
     "rightpad", "right", "pad", "padding", "string"
   ],
-  "author": "looseleaf",
+  "repository": {
+    "url": "git@github.com:looseleafio/right-pad.git", "type": "git"
+    }, "author": "looseleaf",
   "license": "WTFPL"
 }
