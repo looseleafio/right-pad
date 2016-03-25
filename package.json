@@ -1,25 +1,14 @@
 {
-  "name": "left-pad",
-  "version": "0.0.3",
-  "description": "String left pad",
+  "name": "right-padding",
+  "version": "0.0.1",
+  "description": "Right padding for strings",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
-  },
-  "devDependencies": {
-    "tape": "*"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "leftpad",
-    "left",
-    "pad",
-    "padding",
-    "string"
+    "rightpad", "right", "pad", "padding", "string"
   ],
-  "repository": {
-    "url": "git@github.com:azer/left-pad.git",
-    "type": "git"
-  },
-  "author": "azer",
+  "author": "looseleaf",
   "license": "WTFPL"
 }

@@ -1,6 +1,6 @@
-module.exports = leftpad;
+module.exports = rightpad;
 
-function leftpad (str, len, ch) {
+function rightpad (str, len, ch) {
   str = String(str);
 
   var i = -1;
@@ -10,7 +10,7 @@ function leftpad (str, len, ch) {
   len = len - str.length;
 
   while (++i < len) {
-    str = ch + str;
+    str = str + ch;
   }
 
   return str;
